@@ -29,7 +29,7 @@ A lightweight Python tool to analyze PCAP files and generate network traffic rep
 1. Clone the repository:
 
 ```bash
-   git clone https://github.com/securezeron/pcapninja.git
+   git clone https://github.com/securezeron/PcapNinja.git
    cd pcapninja
 ```
 
@@ -40,7 +40,7 @@ A lightweight Python tool to analyze PCAP files and generate network traffic rep
 
 3. Run the script
 ```bash
-python analyze_pcap.py --pcap_file example.pcap
+    python analyze_pcap.py --pcap_file example.pcap
 ```
 
 ## Future Scope
