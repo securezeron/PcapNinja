@@ -459,6 +459,12 @@ def generate_pdf_report(data, analysis, executive_summary, concerns, recommendat
 
 def main(pcap_file):
     print(f"Analyzing {pcap_file}...")
+
+    # Check if the "result" directory exists
+    if not os.path.exists("result"):
+        # Create the directory
+        os.makedirs("result")
+
     data = analyze_pcap(pcap_file)
     if data is None:
         return
