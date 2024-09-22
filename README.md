@@ -1,4 +1,5 @@
-```
+```console
+
  _______  _______  _______  _______  _       _________ _       _________ _______ 
 (  ____ )(  ____ \(  ___  )(  ____ )( (    /|\__   __/( (    /|\__    _/(  ___  )
 | (    )|| (    \/| (   ) || (    )||  \  ( |   ) (   |  \  ( |   )  (  | (   ) |
@@ -7,7 +8,7 @@
 | (      | |      | (   ) || (      | | \   |   | |   | | \   |   |  |  | (   ) |
 | )      | (____/\| )   ( || )      | )  \  |___) (___| )  \  ||\_)  )  | )   ( |
 |/       (_______/|/     \||/       |/    )_)\_______/|/    )_)(____/   |/     \|
-                                                                                 
+                                                                              
 ```
                                                                                  
 
@@ -28,19 +29,19 @@ A lightweight Python tool to analyze PCAP files and generate network traffic rep
 ## Installation  
 1. Clone the repository:
 
-```bash
-   git clone https://github.com/securezeron/PcapNinja.git
-   cd PcapNinja
+```console
+git clone https://github.com/securezeron/PcapNinja.git
+cd PcapNinja
 ```
 
 2. Install dependeciies:
-```bash
-    pip install -r requirements.txt
+```console
+pip install -r requirements.txt
 ```
 
 3. Run the script
-```bash
-    python3 pcapninja.py --pcap_file example.pcap
+```console
+python3 pcapninja.py --pcap_file example.pcap
 ```
 
 ## Future Scope
