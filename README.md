@@ -40,7 +40,7 @@ A lightweight Python tool to analyze PCAP files and generate network traffic rep
 
 3. Run the script
 ```bash
-    python analyze_pcap.py --pcap_file example.pcap
+    python3 pcapninja.py --pcap_file example.pcap
 ```
 
 ## Future Scope
