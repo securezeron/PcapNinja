@@ -463,7 +463,7 @@ def main(pcap_file):
     # Check if the "result" directory exists
     if not os.path.exists("result"):
         # Create the directory
-        os.makedirs("result")
+        os.makedir("result")
 
     data = analyze_pcap(pcap_file)
     if data is None:
