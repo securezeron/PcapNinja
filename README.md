@@ -30,7 +30,7 @@ A lightweight Python tool to analyze PCAP files and generate network traffic rep
 
 ```bash
    git clone https://github.com/securezeron/PcapNinja.git
-   cd pcapninja
+   cd PcapNinja
 ```
 
 2. Install dependeciies:
